@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import { FaArrowDown } from "react-icons/fa";
 function ServiceDetail() {
   useEffect(() => {
     AOS.init({
@@ -11,10 +11,13 @@ function ServiceDetail() {
 
   return (
     <div className="ServiceDetail">
-      <h2>Service Details</h2>
-      <p>
+      <h2 className="details__header">Service Details</h2>
+      <p className="service__para">
         We offer a variety of handyman services to meet your needs, including:
       </p>
+      <h1 className="arrow__down">
+        <FaArrowDown />
+      </h1>
       <ul>
         <li className="service__details" data-aos="fade-left">
           <strong>Electrical:</strong> Wiring, outlet installation, lighting

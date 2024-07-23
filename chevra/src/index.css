@@ -197,6 +197,52 @@
   background-color: #ff00e7;
 }
 
+.details__header {
+  padding-top: 40px;
+  text-align: center;
+  color: #0e5abd;
+}
+
+.service__para {
+  font-weight: bold;
+  padding-top: 50px;
+  font-size: 20px;
+  text-align: center;
+  color: #242424;
+}
+
+/* index.css */
+.arrow__down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 46px;
+  /* Adjust size as needed */
+  animation: bounce 1s infinite;
+  margin-top: 20px;
+  /* Apply animation */
+}
+
+/* Define the keyframe animation */
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+    /* Start position */
+  }
+
+  50% {
+    transform: translateY(10px);
+    /* Move down */
+  }
+
+  100% {
+    transform: translateY(0);
+    /* Return to start position */
+  }
+}
+
+
+
 .ServiceDetail ul {
   max-width: 60vw;
 
@@ -246,8 +292,12 @@
   padding: 10px 0;
   width: 100%;
   text-align: center;
+  padding-bottom: 30px;
 }
 
+.copyright {
+  padding: 20px;
+}
 
 
 
@@ -288,4 +338,50 @@
   justify-content: center;
   align-items: center;
   color: #ff00e7;
+}
+
+
+
+
+/* index.css */
+.whatsapp__container {
+  position: fixed;
+  bottom: 60px;
+  /* Distance from the bottom */
+  right: 60px;
+  /* Distance from the right */
+  z-index: 1000;
+  /* Ensure it's on top of other elements */
+}
+
+.whatsapp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #25d366;
+  /* WhatsApp green */
+  color: white;
+  /* Icon color */
+  border-radius: 50%;
+  width: 60px;
+  /* Adjust size as needed */
+  height: 60px;
+  /* Adjust size as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  /* Optional shadow for better visibility */
+  font-size: 24px;
+  /* Adjust icon size as needed */
+  text-decoration: none;
+  /* Remove underline from link */
+  transition: all 300ms ease;
+}
+
+.whatsapp:hover {
+  background-color: #1ebe56;
+  /* Slightly darker green on hover */
+  scale: 1.1;
+}
+
+.whatsapp:active {
+  scale: 0.9;
 }
