@@ -155,6 +155,10 @@
 
 /* service */
 
+.ServiceList {
+  background-color: #282c34;
+}
+
 .service__header {
   border: 2px solid #ff00e7;
   color: #0e5abd;
@@ -189,10 +193,12 @@
 
 /* service details */
 
-
+.ServiceDetail {
+  background-color: #ff00e7;
+}
 
 .ServiceDetail ul {
-  max-width: 50vw;
+  max-width: 60vw;
 
   list-style-type: none;
   padding: 100px;
@@ -202,6 +208,7 @@
 }
 
 .ServiceDetail li {
+  line-height: 1.7;
   display: flex;
   justify-content: center;
   background: #0e5abd;
@@ -239,4 +246,46 @@
   padding: 10px 0;
   width: 100%;
   text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* index.css */
+.image-container2 {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  /* Full width */
+  height: 300px;
+  /* Adjust height as needed */
+  max-width: 100%;
+  /* Limit maximum width */
+  background-color: #0e5abd;
+}
+
+.landing__image2 {
+
+  position: absolute;
+  width: 160px;
+  top: 0;
+  left: -60px;
+  transition: transform .2s ease;
+
+}
+
+.scroll__header {
+  text-decoration: underline overline solid #ff00e7;
+  text-underline-offset: 10px;
+  padding: 10px 0;
+  display: flex;
+  margin-top: 7rem;
+  justify-content: center;
+  align-items: center;
+  color: #ff00e7;
 }

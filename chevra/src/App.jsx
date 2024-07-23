@@ -8,6 +8,8 @@ import Testimonials from "./Testimonials";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import Landing from "./Landing";
+import ScrollImage from "./ScrollImage";
+import Whatsapp from "./Whatsapp";
 
 function App() {
   return (
@@ -15,10 +17,12 @@ function App() {
       <Navbar />
       <Header />
       <Landing />
+      <ScrollImage />
       <ServiceList />
       <ServiceDetail />
       <Testimonials />
       <Contact />
+      <Whatsapp />
       <Footer />
     </div>
   );
