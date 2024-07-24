@@ -1,5 +1,4 @@
 import React from "react";
-import { AiOutlineSafetyCertificate } from "react-icons/ai";
 export default function Landing() {
   return (
     <section className="landing">

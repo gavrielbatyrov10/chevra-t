@@ -161,10 +161,44 @@
   }
 }
 
+
 /* header */
 .header__img {
   width: 3rem;
 }
+
+@media (max-width: 550px) {
+  .header__titlee {
+    padding-top: 20px;
+  }
+
+  .arrow-up {
+    position: fixed;
+    bottom: 160px;
+    right: 1px;
+    background-color: #fff;
+    border: 2px solid black;
+    /* Background color for visibility */
+    color: #50e605;
+    /* Icon color */
+    border-radius: 5px;
+    /* Round shape */
+    padding: 10px;
+    /* Space around the icon */
+    font-size: 24px;
+    /* Icon size */
+    text-decoration: none;
+    /* Remove underline */
+    box-shadow: 0 0 5px 5px rgba(206, 52, 206, 0.361);
+    /* Optional: shadow for better visibility */
+    transition: background-color 0.3s, color 0.3s;
+    /* Smooth transition */
+    transition: all 300ms ease;
+  }
+
+
+}
+
 
 .img__wrapper {
   display: flex;
@@ -227,7 +261,6 @@
   margin: 20px;
 }
 
-
 .App-header {
   background-color: #282c34;
   padding: 1rem;
@@ -239,6 +272,20 @@
   justify-content: center;
 }
 
+@media(max-width:550px) {
+  .App-header {
+    background-color: #282c34;
+    padding: 2rem;
+    color: white;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
 
 .header__title {
   margin: 20px;
@@ -248,7 +295,7 @@
 /* landing */
 
 .landing {
-  background-color: #0e5abd;
+  background-color: #11b0f4;
   height: 85vh;
 }
 
@@ -257,6 +304,25 @@
 .landing__img {
   width: 15rem;
   margin-top: 3rem;
+}
+
+@media(max-width:768px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .landing__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .landing__img {
+    display: none;
+  }
+
+
+
 }
 
 .wrapper {
@@ -285,6 +351,18 @@
   text-align: center;
 }
 
+@media(max-width:768px) {
+  .landing__header {
+    font-size: 26px;
+    width: 80vw;
+  }
+
+  .landing__para {
+    max-width: 80vw;
+    text-align: center;
+  }
+}
+
 .landing__para {
   width: 25rem;
   padding-top: 4rem;
@@ -294,6 +372,17 @@
   text-underline-offset: 10px;
 }
 
+@media(max-width:550px) {
+
+  .landing__para {
+    font-size: 16px;
+    padding: 10px;
+    padding-top: 20px;
+  }
+}
+
+
+
 .certified__wrapper {
   display: flex;
   font-size: 50px;
@@ -301,6 +390,9 @@
 
 
 /* service */
+
+
+
 
 .ServiceList {
   background-color: #282c34;
@@ -338,16 +430,17 @@
 }
 
 
+
 /* service details */
 
 .ServiceDetail {
-  background-color: #0e5abd;
+  background-color: #11b0f4;
 }
 
 .details__header {
   padding-top: 40px;
   text-align: center;
-  color: #0e5abd;
+  color: #ff00e7;
 }
 
 .service__para {
@@ -357,6 +450,18 @@
   text-align: center;
   color: #000000;
 
+}
+
+@media(max-width:768px) {
+  .service__para {
+    font-weight: bold;
+    padding-top: 50px;
+    padding: 5px 10px;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+
+  }
 }
 
 /* index.css */
@@ -401,7 +506,27 @@
   margin: 0 auto;
 }
 
+@media(max-width:768px) {
+  .ServiceDetail ul {
+    max-width: 60vw;
+
+    list-style-type: none;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .scroll__header {
+    font-size: 20px;
+  }
+
+}
+
+
 .ServiceDetail li {
+  display: flex;
+  flex-direction: column;
   line-height: 1.7;
   display: flex;
   justify-content: center;
@@ -463,6 +588,19 @@
   border-top: 1px solid #ff00e7;
   padding: 2rem 0;
   text-align: center;
+}
+
+.contact__number {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone {
+  padding: 10px;
+  font-size: 30px;
+  color: #1ebe56;
 }
 
 /* footer */
@@ -595,6 +733,41 @@
   /* Smooth transition */
   transition: all 300ms ease;
 }
+
+
+@media (max-width: 550px) {
+
+  .arrow-up {
+    position: fixed;
+    bottom: 160px;
+    right: 1px;
+    background-color: #fff;
+    border: 2px solid black;
+    /* Background color for visibility */
+    color: #50e605;
+    /* Icon color */
+    border-radius: 5px;
+    /* Round shape */
+    padding: 10px;
+    /* Space around the icon */
+    font-size: 24px;
+    /* Icon size */
+    text-decoration: none;
+    /* Remove underline */
+    box-shadow: 0 0 5px 5px rgba(206, 52, 206, 0.361);
+    /* Optional: shadow for better visibility */
+    transition: background-color 0.3s, color 0.3s;
+    /* Smooth transition */
+    transition: all 300ms ease;
+  }
+
+  .whatsapp {
+    position: fixed;
+    bottom: 70px;
+    right: 1px;
+  }
+}
+
 
 .arrow-up:hover {
   background-color: #444;

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { IoMdCall } from "react-icons/io";
 
 function Contact() {
   useEffect(() => {
@@ -14,9 +15,12 @@ function Contact() {
       <h2 className="contact__header" data-aos="fade-in">
         Contact Us
       </h2>
-      <p>Email: info@handymanservices.com</p>
-      <p>Phone: (123) 456-7890</p>
-      <p>Address: 123 Handyman St, Service City, ST 12345</p>
+      <p>
+        <a class="contact__number" href="tel:+19293834450    ">
+          <IoMdCall className="phone" />
+          +1929-383-4450
+        </a>
+      </p>
     </div>
   );
 }
