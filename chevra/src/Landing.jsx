@@ -1,4 +1,5 @@
 import React from "react";
+
 export default function Landing() {
   return (
     <section className="landing">
@@ -7,14 +8,14 @@ export default function Landing() {
           <img
             className="landing__img"
             src="./src/assets/handyChevraPerson.png"
-            alt=""
+            alt="Handy Chevra Person"
           />
         </figure>
         <div className="wrapper">
           <p className="landing__header">ONE CALL FIX ALL!</p>
           <p className="landing__para">
             At Handy Chevra, we offer expert handyman services for all your
-            household needs. From electrical and plumbing repairs to dry wall
+            household needs. From electrical and plumbing repairs to drywall
             patchups and appliance installations, our skilled team has you
             covered. We also handle rubbish removal, light hauling, mice
             proofing, window shade repairs, furniture assembly, and

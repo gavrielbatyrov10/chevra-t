@@ -72,7 +72,7 @@
   max-width: 300px;
   padding: 10px;
   border-radius: 4px;
-  z-index: 1000;
+  z-index: 100;
   transition: all 0.3s ease;
 }
 
@@ -293,36 +293,14 @@
 }
 
 /* landing */
-
 .landing {
   background-color: #11b0f4;
   height: 85vh;
 }
 
-
-
 .landing__img {
   width: 15rem;
   margin-top: 3rem;
-}
-
-@media(max-width:768px) {
-  .wrapper {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .landing__wrapper {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .landing__img {
-    display: none;
-  }
-
-
-
 }
 
 .wrapper {
@@ -351,7 +329,30 @@
   text-align: center;
 }
 
-@media(max-width:768px) {
+.landing__para {
+  width: 25rem;
+  padding-top: 4rem;
+  line-height: 1.9;
+  font-weight: bold;
+  text-underline-offset: 10px;
+  max-height: 90vh;
+}
+
+@media(max-width: 768px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .landing__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .landing__img {
+    display: none;
+  }
+
   .landing__header {
     font-size: 26px;
     width: 80vw;
@@ -361,23 +362,33 @@
     max-width: 80vw;
     text-align: center;
   }
+
+  .landing {
+    min-height: 100vh;
+    position: relative;
+    z-index: 9;
+  }
 }
 
-.landing__para {
-  width: 25rem;
-  padding-top: 4rem;
-  line-height: 1.9;
-  font-weight: bold;
-  /* text-decoration: underline #ff00e7; */
-  text-underline-offset: 10px;
-}
-
-@media(max-width:550px) {
-
+@media(max-width: 550px) {
   .landing__para {
     font-size: 16px;
     padding: 10px;
     padding-top: 20px;
+  }
+}
+
+@media(max-height: 768px) {
+  .landing__header {
+    font-size: 26px;
+    width: 80vw;
+  }
+
+  .landing__para {
+    max-width: 80vw;
+    text-align: center;
+    padding: 0;
+    margin: 0;
   }
 }
 
@@ -628,10 +639,11 @@
 /* index.css */
 .image-container2 {
   position: relative;
-  overflow: hidden;
   width: 100%;
   /* Full width */
   height: 300px;
+  overflow: hidden;
+
   /* Adjust height as needed */
   max-width: 100%;
   /* Limit maximum width */
