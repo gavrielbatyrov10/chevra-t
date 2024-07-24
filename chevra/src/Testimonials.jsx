@@ -20,7 +20,7 @@ const testimonials = [
 function Testimonials() {
   return (
     <div className="Testimonials" id="testimonials">
-      <h2>Testimonials</h2>
+      <h2 className="testimonials__header">Testimonials</h2>
       <ul>
         {testimonials.map((testimonial, index) => (
           <li key={index}>

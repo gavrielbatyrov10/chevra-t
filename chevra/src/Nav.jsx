@@ -1,0 +1,73 @@
+import React, { useState } from "react";
+import "./index.css";
+
+const Nav = ({ numberOfItems }) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const openMenu = () => {
+    document.body.classList.add("menu--open");
+    setIsOpen(true);
+  };
+
+  const closeMenu = () => {
+    document.body.classList.remove("menu--open");
+    setIsOpen(false);
+  };
+
+  return (
+    <nav id="nav">
+      <div className="nav__container">
+        <a href="#services"></a>
+        <ul className="nav__links">
+          <li className="nav__link--list">
+            <a href="#services" className="nav__link" onClick={closeMenu}>
+              Services
+            </a>
+          </li>
+          <li className="nav__link--list">
+            <a href="#testimonials" className="nav__link" onClick={closeMenu}>
+              Testimonials
+            </a>
+          </li>
+          <li className="nav__link--list">
+            <a href="#contact" className="nav__link" onClick={closeMenu}>
+              Contact
+            </a>
+            <span className="cart__length">{numberOfItems}</span>
+          </li>
+        </ul>
+        <div className="hamburger" onClick={openMenu}>
+          &#9776; {/* Hamburger icon */}
+        </div>
+        <div className={`menu__backdrop ${isOpen ? "open" : ""}`}>
+          <button className="btn__menu btn__menu--close" onClick={closeMenu}>
+            &times; {/* Close icon */}
+          </button>
+          <ul className="menu__links">
+            <li className="menu__list">
+              <a href="#services" className="menu__link" onClick={closeMenu}>
+                Services
+              </a>
+            </li>
+            <li className="menu__list">
+              <a
+                href="#testimonials"
+                className="menu__link"
+                onClick={closeMenu}
+              >
+                Testimonials
+              </a>
+            </li>
+            <li className="menu__list">
+              <a href="#contact" className="menu__link" onClick={closeMenu}>
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  );
+};
+
+export default Nav;

@@ -14,10 +14,13 @@ export default function Landing() {
         <div className="wrapper">
           <p className="landing__header">ONE CALL FIX ALL!</p>
           <p className="landing__para">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
-            ipsa autem quia harum? Labore iste praesentium quibusdam,
-            perspiciatis adipisci nam quam culpa in sequi modi beatae aliquid
-            veniam maiores ea.
+            At Handy Chevra, we offer expert handyman services for all your
+            household needs. From electrical and plumbing repairs to dry wall
+            patchups and appliance installations, our skilled team has you
+            covered. We also handle rubbish removal, light hauling, mice
+            proofing, window shade repairs, furniture assembly, and
+            post-construction touch-ups. No job is too big or small—trust us to
+            get it done with professionalism and care.
           </p>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./Navbar";
+import Nav from "./Nav";
 import Header from "./Header";
 import ServiceList from "./ServiceList";
 import ServiceDetail from "./ServiceDetail";
@@ -10,11 +10,12 @@ import Footer from "./Footer";
 import Landing from "./Landing";
 import ScrollImage from "./ScrollImage";
 import Whatsapp from "./Whatsapp";
+import ArrowUp from "./ArrowUp";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Nav />
       <Header />
       <Landing />
       <ScrollImage />
@@ -23,6 +24,7 @@ function App() {
       <Testimonials />
       <Contact />
       <Whatsapp />
+      <ArrowUp />
       <Footer />
     </div>
   );
