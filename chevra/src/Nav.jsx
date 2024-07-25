@@ -40,9 +40,10 @@ const Nav = ({ numberOfItems }) => {
           &#9776; {/* Hamburger icon */}
         </div>
         <div className={`menu__backdrop ${isOpen ? "open" : ""}`}>
-          <button className="btn__menu btn__menu--close" onClick={closeMenu}>
-            &times; {/* Close icon */}
+          <button className="btn__menu" onClick={closeMenu}>
+            <div className="btn__menu--close">&times;</div>
           </button>
+
           <ul className="menu__links">
             <li className="menu__list">
               <a href="#services" className="menu__link" onClick={closeMenu}>

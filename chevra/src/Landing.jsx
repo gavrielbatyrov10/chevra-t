@@ -13,7 +13,7 @@ export default function Landing() {
         </figure>
         <div className="wrapper">
           <p className="landing__header">ONE CALL FIX ALL!</p>
-          <p className="landing__para">Handy Chevra</p>
+          {/* <p className="landing__para">Handy Chevra</p> */}
           <p className="landing__para--mobile">
             Handy Chevra offers expert handyman services for all your household
             needs. From electrical and plumbing repairs to appliance
