@@ -356,8 +356,13 @@
 }
 
 .landing__img {
-  width: 15rem;
-  margin-top: 3rem;
+  width: 100%;
+  max-width: 18ch;
+  border-radius: 4px;
+  box-shadow: 0 0 34px #00ccff;
+  box-sizing: unset;
+  display: flex;
+  justify-content: center;
 }
 
 .wrapper {
@@ -372,10 +377,11 @@
 
 .landing__wrapper {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 50vw;
-  margin: 0 auto;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 0 34px #00ccff;
+  box-sizing: unset;
 }
 
 .landing__header {
@@ -437,7 +443,7 @@
 
   .landing {
 
-    padding: 110px;
+    /* padding: 110px; */
   }
 
 
@@ -731,10 +737,12 @@
 
 
 .landing__para--mobile {
-  display: flex;
-  font-size: 16px;
-  width: 60%;
-  max-width: 100%;
+
+  padding: 10px;
+  padding-bottom: 30px;
+  object-fit: contain;
+  max-width: 60vw;
+
 }
 
 @media (max-width: 550px) {
@@ -934,10 +942,10 @@ body {
 
 @media(max-height:558px) {
   .landing__para--mobile {
-    background-color: #ff00e7;
     padding: 10px;
-    box-shadow: 7px 8px 7px 8px #ff00e7;
-
+    padding: 10px;
+    padding-bottom: 30px;
+    object-fit: contain;
   }
 
   .landing__image2 {
@@ -954,11 +962,37 @@ body {
   background-color: #242424;
 }
 
-.menu__backdrop #sukkah {}
+.back {
+  color: #ff00e7;
+  padding: 0.41ch;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2ch;
+}
+
+.back__btn {
+  color: #ff00e7;
+  margin-bottom: 1ch;
+  padding: 1ch;
+  align-items: center;
+  justify-content: start;
+  display: flex;
+  font-size: 2ch;
+}
 
 .sukkah-title {
-  font-size: 2em;
+  font-size: 4ch;
   margin-bottom: 20px;
+  color: #ff00e7;
+  text-align: center;
+
+}
+
+.sukkah__para {
+  font-size: 2.2ch;
+  margin-bottom: 20px;
+  text-align: center;
   color: #ff00e7;
 }
 
@@ -988,11 +1022,16 @@ body {
   font-size: 1.5em;
   font-weight: bold;
   color: #f4f4f4;
+  text-align: center;
+
 }
 
 .sukkah-email {
   font-size: 1.2em;
   color: #ff00e7;
+  padding: 1em;
+  text-align: center;
+
 }
 
 .main__img--wrapper {
@@ -1022,15 +1061,14 @@ body {
   color: white;
   /* Change the text color to white */
   text-align: center;
-  border-bottom: 4px solid rgb(1, 1, 88);
+  border-bottom: 4px solid #ff00e7;
   padding: 18px 4px;
   margin: 14px;
-  border-top: 4px solid rgb(30, 4, 133);
+  border-top: 4px solid #ff00e7;
   box-shadow: 0 0 34px #6257d8;
-  background-color: rgb(0, 0, 0);
+  background-color: #00ccff;
+
 }
-
-
 
 .main__article--wrapper {
   display: flex;

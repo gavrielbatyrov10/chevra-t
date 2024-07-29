@@ -16,9 +16,9 @@ function Contact() {
         Contact Us
       </h2>
       <p>
-        <a class="contact__number" href="tel:+19293834450    ">
+        <a class="contact__number" href="tel:+19293834450">
           <IoMdCall className="phone" />
-          +1929-383-4450
+          +1 929-383-4450
         </a>
       </p>
     </div>
