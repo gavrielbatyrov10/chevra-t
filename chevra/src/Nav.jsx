@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./index.css";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
 const Nav = ({ numberOfItems }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,6 +36,13 @@ const Nav = ({ numberOfItems }) => {
             </a>
             <span className="cart__length">{numberOfItems}</span>
           </li>
+          <li className="nav__link--list">
+            <Link className="nav__link" to="/sukkah">
+              Sukkah department
+            </Link>
+
+            <span className="cart__length">{numberOfItems}</span>
+          </li>
         </ul>
         <div className="hamburger" onClick={openMenu}>
           &#9776; {/* Hamburger icon */}
@@ -58,6 +66,11 @@ const Nav = ({ numberOfItems }) => {
               >
                 Testimonials
               </a>
+            </li>
+            <li className="menu__list">
+              <Link className="nav__link" to="/sukkah">
+                Sukkah department
+              </Link>
             </li>
             <li className="menu__list">
               <a href="#contact" className="menu__link" onClick={closeMenu}>
