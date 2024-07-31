@@ -18,7 +18,7 @@ function Contact() {
       <p>
         <a class="contact__number" href="tel:+19293834450">
           <IoMdCall className="phone" />
-          +1 929-383-4450
+          +347-588-9207
         </a>
       </p>
     </div>

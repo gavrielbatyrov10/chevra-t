@@ -54,7 +54,7 @@ function Sukkah() {
         <p className="sukkah__para">Call or text for a free estimate:</p>
         <a class="contact__number" href="tel:+19293834450">
           {" "}
-          <p className="sukkah-phone">+1 929-383-4450</p>
+          <p className="sukkah-phone">+347-588-9207</p>
         </a>
         <p className="sukkah-email">handychevra@gmail.com</p>
       </div>

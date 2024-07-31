@@ -441,11 +441,6 @@
     padding-bottom: 20px;
   }
 
-  .landing {
-
-    /* padding: 110px; */
-  }
-
 
   .landing__img2 {
     display: none;
@@ -1021,9 +1016,8 @@ body {
 .sukkah-phone {
   font-size: 1.5em;
   font-weight: bold;
-  color: #f4f4f4;
+  color: #ff00e7;
   text-align: center;
-
 }
 
 .sukkah-email {
@@ -1036,7 +1030,7 @@ body {
 
 .main__img--wrapper {
   margin: 0 auto;
-  max-width: 85ch;
+  max-width: 70ch;
   flex: 1;
   height: 0%;
 }

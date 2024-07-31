@@ -58,7 +58,7 @@ function ServiceDetail() {
           construction or renovation.
         </li>
         <li className="service__details" data-aos="fade-up">
-          <strong>All Odds-and-Ends Jobs:</strong> Various small tasks and
+          <strong>All Odds-and-Ends Jobs:</strong> Various small / big tasks and
           repairs around the house.
         </li>
       </ul>

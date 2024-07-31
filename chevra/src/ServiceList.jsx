@@ -8,11 +8,14 @@ const services = [
   "Dry Wall Patchups",
   "Rubbish Removal",
   "Light Hauling",
-  "Mice Proofing",
-  "Appliance Installation",
+  "painting",
+  "window screen repair",
+  "Appliance repair / Installation",
   "Window Shade Installation/Repair",
   "Furniture Assembly",
   "Post Construction Touch-ups",
+  "appliance repair/Installation ",
+  "low voltage Installation such as cameras, speakers, intercoms & more ",
   "All Odds-and-Ends Jobs",
 ];
 
