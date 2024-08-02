@@ -24,13 +24,13 @@ const Booking = () => {
       <a
         className="booking"
         id="Setmore_button_iframe"
-        href="https://booking.setmore.com/scheduleappointment/97158175-a97a-4b04-8f7d-7fc7d25e6948"
+        href="https://booking.setmore.com/scheduleappointment/df4b630b-13b8-4696-a29a-86d3f9284da2"
       >
         <img
           className="booking"
           border="none"
           src="https://assets.setmore.com/setmore/images/2.0/Settings/book-now-black.svg"
-          alt="Book an appointment with gavriel batyrov using Setmore"
+          alt="Book an appointment with Handychevra using Setmore"
         />
       </a>
     </div>
