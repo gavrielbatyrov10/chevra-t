@@ -18,7 +18,14 @@ const Nav = ({ numberOfItems }) => {
   return (
     <nav id="nav">
       <div className="nav__container">
-        <a href="#services"></a>
+        <figure className="nav__img--wrapper">
+          <img
+            data-aos="fade-up"
+            src="./src/assets/handyChevraPerson.png"
+            alt=""
+            className="nav__img"
+          />
+        </figure>
         <ul className="nav__links">
           <li className="nav__link--list">
             <a href="#services" className="nav__link" onClick={closeMenu}>

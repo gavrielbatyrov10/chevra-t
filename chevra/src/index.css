@@ -49,6 +49,8 @@
   position: relative;
 }
 
+
+
 .navbar {
   display: flex;
   align-items: center;
@@ -57,6 +59,22 @@
 
 .img__wrapper {
   margin-right: auto;
+}
+
+
+
+.nav__img--wrapper {
+  max-width: 4ch;
+  flex: 1;
+  height: 0%;
+}
+
+.nav__img {
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 0 34px #00ccff;
+  box-sizing: unset;
+
 }
 
 .logo {
@@ -849,6 +867,83 @@ body {
   scale: 0.9;
 }
 
+
+
+/* booking */
+
+
+
+
+.booking__container {
+  position: fixed;
+  right: 22px;
+  top: 65px;
+  display: block;
+  z-index: 20000;
+}
+
+.booking {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* WhatsApp green */
+  /* Icon color */
+  width: 120px;
+  /* Adjust size as needed */
+  height: 60px;
+  /* Adjust size as needed */
+  /* Optional shadow for better visibility */
+  /* Adjust icon size as needed */
+  border-radius: 10px;
+  text-decoration: none;
+  /* Remove underline from link */
+  transition: all 300ms ease;
+}
+
+.booking:hover {
+  /* Slightly darker green on hover */
+  transform: scale(1.1);
+}
+
+.booking:active {
+  transform: scale(0.9);
+}
+
+@media(max-width: 768px) {
+
+
+  .booking__container {
+    position: fixed;
+    right: 2px;
+    top: 65px;
+    display: block;
+    z-index: 20000;
+  }
+
+  .booking {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* WhatsApp green */
+    /* Icon color */
+    width: 100px;
+    /* Adjust size as needed */
+    height: 60px;
+    /* Adjust size as needed */
+    /* Optional shadow for better visibility */
+    /* Adjust icon size as needed */
+    border-radius: 10px;
+    text-decoration: none;
+    /* Remove underline from link */
+    transition: all 300ms ease;
+  }
+
+
+
+}
+
+
+
 /* arrow up */
 
 /* index.css */
@@ -1011,6 +1106,10 @@ body {
 
 .sukkah-contact {
   margin-top: 30px;
+}
+
+.sukkah__email {
+  padding: 2ch;
 }
 
 .sukkah-phone {

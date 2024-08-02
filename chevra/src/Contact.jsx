@@ -16,6 +16,12 @@ function Contact() {
         Contact Us
       </h2>
       <p>
+        <a className="contact__number" href="mailto:handychevra@gmail.com">
+          handychevra@gmail.com
+        </a>
+      </p>
+
+      <p>
         <a class="contact__number" href="tel:+19293834450">
           <IoMdCall className="phone" />
           +347-588-9207

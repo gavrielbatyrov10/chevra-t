@@ -56,7 +56,11 @@ function Sukkah() {
           {" "}
           <p className="sukkah-phone">+347-588-9207</p>
         </a>
-        <p className="sukkah-email">handychevra@gmail.com</p>
+        <p className="sukkah__email">
+          <a className="contact__number" href="mailto:handychevra@gmail.com">
+            handychevra@gmail.com
+          </a>
+        </p>
       </div>
       <div className="ServiceList" id="services">
         <h2 className="service__header">Who we are</h2>

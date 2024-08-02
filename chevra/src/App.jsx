@@ -13,6 +13,7 @@ import Whatsapp from "./Whatsapp";
 import ArrowUp from "./ArrowUp";
 import Sukkah from "./Sukkah";
 import "./index.css"; // Ensure you import the CSS file
+import Booking from "./Booking";
 
 function MainPage() {
   return (
@@ -24,6 +25,7 @@ function MainPage() {
       <ServiceList />
       <ServiceDetail />
       <Testimonials />
+      <Booking />
       <Contact />
       <Whatsapp />
       <ArrowUp />
