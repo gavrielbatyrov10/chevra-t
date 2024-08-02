@@ -30,7 +30,7 @@ function Sukkah() {
       <figure className="main__img--wrapper">
         <img
           data-aos="fade-up"
-          src="https://sukkahman.com/cdn/shop/products/08cf7618b43c3b2a47559fc9261e287479e02dd37b734b34aecb8c2d8e186bfd_1fa841c9-f879-48ec-ba31-59ee20beb135_700x.webp?v=1694010655"
+          src="https://w2.chabad.org/media/images/766/ViIN7667176.jpg"
           alt=""
           className="main__img"
         />
