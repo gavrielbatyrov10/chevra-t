@@ -13,13 +13,6 @@ export default function Landing() {
           />
         </figure>
 
-        {/* <figure className="img__wrapper">
-          <img
-            className="landing__img"
-            src="./src/assets/handyChevraPerson.png"
-            alt="Handy Chevra Person"
-          />
-        </figure> */}
         <div className="wrapper">
           <p className="landing__header">ONE CALL FIX ALL!</p>
           <p className="landing__para--mobile">

@@ -352,7 +352,7 @@
   }
 
   .landing {
-    height: 120vh;
+    height: 100vh;
   }
 
   .ServiceDetail li {
@@ -446,7 +446,6 @@
   }
 
   .landing {
-    min-height: 100vh;
     position: relative;
     z-index: 9;
   }
