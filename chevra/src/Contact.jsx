@@ -22,7 +22,7 @@ function Contact() {
       </p>
 
       <p>
-        <a class="contact__number" href="tel:+19293834450">
+        <a className="contact__number" href="tel:+13475889207">
           <IoMdCall className="phone" />
           +347-588-9207
         </a>

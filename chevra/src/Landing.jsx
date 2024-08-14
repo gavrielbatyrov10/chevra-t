@@ -7,9 +7,10 @@ export default function Landing() {
         <figure className="main__img--wrapper">
           <img
             data-aos="fade-up"
-            src="./src/assets/handyChevraPerson.png"
+            // src="./src/assets/handyChevraPerson.png"
+            src="https://handychevra.com/assets/handyChevraPerson-xdWqHQgE.png"
             alt=""
-            className="main__img landing__img"
+            className="landing__img"
           />
         </figure>
 

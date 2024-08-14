@@ -21,7 +21,7 @@ const Nav = ({ numberOfItems }) => {
         <figure className="nav__img--wrapper">
           <img
             data-aos="fade-up"
-            src="./src/assets/handyChevraPerson.png"
+            src="https://lh3.googleusercontent.com/a-/ALV-UjWtNsX9iqGmWu8wc6jmfhQfphkO92C0OhXrjMZkwTThZzgCv54=s265-w265-h265"
             alt=""
             className="nav__img"
           />

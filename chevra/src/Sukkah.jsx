@@ -36,11 +36,11 @@ function Sukkah() {
         />
       </figure>
 
-      <section class="info">
+      <section className="info">
         <article
           data-aos="fade-up"
           data-aos-duration="3000"
-          class="text__wrapper"
+          className="text__wrapper"
         >
           <p className="info__para">
             Experience the best in sukkah building with the Handy Chevra team!
@@ -52,8 +52,7 @@ function Sukkah() {
 
       <div className="sukkah-contact">
         <p className="sukkah__para">Call or text for a free estimate:</p>
-        <a class="contact__number" href="tel:+19293834450">
-          {" "}
+        <a className="contact__number" href="tel:+13475889207">
           <p className="sukkah-phone">+347-588-9207</p>
         </a>
         <p className="sukkah__email">

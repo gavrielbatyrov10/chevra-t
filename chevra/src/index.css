@@ -72,8 +72,9 @@
 .nav__img {
   width: 100%;
   border-radius: 4px;
-  box-shadow: 0 0 34px #00ccff;
+  /* box-shadow: 0 0 34px #00ccff; */
   box-sizing: unset;
+  scale: 1.5;
 
 }
 
@@ -111,7 +112,7 @@
   display: none;
   flex-direction: column;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 36px;
 }
 
 
@@ -224,42 +225,6 @@
 
 
 
-@media (max-width: 550px) {
-  .header__titlee {
-    padding-top: 20px;
-  }
-
-
-
-
-  .arrow-up {
-    position: fixed;
-    bottom: 160px;
-    right: 1px;
-    background-color: #fff;
-    border: 2px solid black;
-    /* Background color for visibility */
-    color: #50e605;
-    /* Icon color */
-    border-radius: 5px;
-    /* Round shape */
-    padding: 10px;
-    /* Space around the icon */
-    font-size: 24px;
-    /* Icon size */
-    text-decoration: none;
-    /* Remove underline */
-    box-shadow: 0 0 5px 5px rgba(206, 52, 206, 0.361);
-    /* Optional: shadow for better visibility */
-    transition: background-color 0.3s, color 0.3s;
-    /* Smooth transition */
-    transition: all 300ms ease;
-    z-index: 1000;
-  }
-
-
-}
-
 
 .img__wrapper {
   display: flex;
@@ -279,7 +244,7 @@
 
 .Navbar li a {
   display: block;
-  color: #ff00e7;
+  color: #42053c;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -333,33 +298,6 @@
   justify-content: center;
 }
 
-@media(max-width:550px) {
-  .App-header {
-    background-color: #282c34;
-    padding: 2rem;
-    color: white;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-@media(max-width:350px) {
-  .image-container2 {
-    padding-top: 20px;
-  }
-
-  .landing {
-    height: 100vh;
-  }
-
-  .ServiceDetail li {
-    width: 80%;
-  }
-}
-
 
 
 .header__title {
@@ -370,7 +308,7 @@
 /* landing */
 .landing {
   background-color: #11b0f4;
-  height: 85vh;
+  height: 75vh;
 }
 
 .landing__img {
@@ -404,7 +342,7 @@
 
 .landing__header {
   width: 30rem;
-  color: #ff00e7;
+  color: #2634ed;
   font-weight: bold;
   font-size: 70px;
   text-align: center;
@@ -417,76 +355,6 @@
   font-weight: bold;
   text-underline-offset: 10px;
   max-height: 95vh;
-}
-
-@media(max-width: 768px) {
-  .wrapper {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .landing__wrapper {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .landing__img {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .landing__header {
-    font-size: 26px;
-    width: 80vw;
-  }
-
-  .landing__para {
-    max-width: 80vw;
-    text-align: center;
-  }
-
-  .landing {
-    position: relative;
-    z-index: 9;
-  }
-}
-
-@media(max-width: 570px) {
-  .landing__para {
-    font-size: 16px;
-    padding: 10px;
-    padding-bottom: 20px;
-  }
-
-
-  .landing__img2 {
-    display: none;
-  }
-
-}
-
-
-@media(max-width: 550px) {
-  .landing__para {
-    font-size: 16px;
-    padding: 10px;
-    padding-top: 20px;
-  }
-
-}
-
-@media(max-height: 768px) {
-  .landing__header {
-    font-size: 26px;
-    width: 80vw;
-  }
-
-  .landing__para {
-    max-width: 80vw;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-  }
 }
 
 
@@ -548,7 +416,7 @@
 .details__header {
   padding-top: 40px;
   text-align: center;
-  color: #ff00e7;
+  color: #501d79;
 }
 
 .service__para {
@@ -565,29 +433,6 @@
   display: flex !important;
 }
 
-@media(max-height: 770px) {
-  .landing__image2 {
-    display: none;
-  }
-
-
-  .scroll__header {
-    padding-top: 30px;
-    margin-top: 40px;
-  }
-}
-
-@media(max-width:768px) {
-  .service__para {
-    font-weight: bold;
-    padding-top: 50px;
-    padding: 5px 10px;
-    font-size: 20px;
-    text-align: center;
-    color: #000000;
-
-  }
-}
 
 /* index.css */
 .arrow__down {
@@ -631,23 +476,6 @@
   margin: 0 auto;
 }
 
-@media(max-width:768px) {
-  .ServiceDetail ul {
-    max-width: 60vw;
-
-    list-style-type: none;
-    padding: 10px;
-    margin: 20px;
-    text-align: center;
-    margin: 0 auto;
-  }
-
-  .scroll__header {
-    font-size: 20px;
-  }
-
-}
-
 
 .ServiceDetail li {
   display: flex;
@@ -656,7 +484,7 @@
   display: flex;
   justify-content: center;
   background: #242424;
-  color: #ff00e7;
+  color: #fbfbfb;
   padding: 2rem;
   margin: 4rem 0;
   border-radius: 5px;
@@ -689,8 +517,7 @@
 
 .testimonials__header {
   text-align: center;
-  color: #ff00e7;
-
+  color: #ffffff;
   padding-top: 1rem;
 }
 
@@ -709,8 +536,8 @@
 }
 
 .contact__header {
-  color: #ff00e7;
-  border-top: 1px solid #ff00e7;
+  color: #fbfbfb;
+  border-top: 1px solid #00ccff;
   padding: 2rem 0;
   text-align: center;
 }
@@ -757,26 +584,6 @@
 
 }
 
-@media (max-width: 550px) {
-  .landing__para--mobile {
-    display: flex;
-    font-size: 16px;
-    width: 90%;
-    max-width: 100%;
-  }
-}
-
-
-@media (max-height: 665px) {
-  .landing__img {
-    width: 10rem;
-  }
-
-  .landing {
-    display: flex;
-    flex-direction: column;
-  }
-}
 
 body {
   background-color: #11b0f4;
@@ -807,14 +614,14 @@ body {
 }
 
 .scroll__header {
-  text-decoration: underline overline solid #ff00e7;
+  text-decoration: underline overline solid #0d00ff;
   text-underline-offset: 10px;
   padding: 10px 0;
   display: flex;
   margin-top: 7rem;
   justify-content: center;
   align-items: center;
-  color: #ff00e7;
+  color: #a164d2;
 }
 
 
@@ -908,38 +715,6 @@ body {
   transform: scale(0.9);
 }
 
-@media(max-width: 768px) {
-
-
-  .booking__container {
-    position: fixed;
-    right: 2px;
-    top: 65px;
-    display: block;
-    z-index: 20000;
-  }
-
-  .booking {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* WhatsApp green */
-    /* Icon color */
-    width: 100px;
-    /* Adjust size as needed */
-    height: 60px;
-    /* Adjust size as needed */
-    /* Optional shadow for better visibility */
-    /* Adjust icon size as needed */
-    border-radius: 10px;
-    text-decoration: none;
-    /* Remove underline from link */
-    transition: all 300ms ease;
-  }
-
-
-
-}
 
 
 
@@ -970,49 +745,6 @@ body {
   transition: all 300ms ease;
 }
 
-@media(max-height: 770px) {
-
-
-  .scroll__header {
-
-    display: none;
-  }
-
-}
-
-
-@media (max-width: 550px) {
-
-  .arrow-up {
-    position: fixed;
-    bottom: 160px;
-    right: 1px;
-    background-color: #fff;
-    border: 2px solid black;
-    /* Background color for visibility */
-    color: #50e605;
-    /* Icon color */
-    border-radius: 5px;
-    /* Round shape */
-    padding: 10px;
-    /* Space around the icon */
-    font-size: 24px;
-    /* Icon size */
-    text-decoration: none;
-    /* Remove underline */
-    box-shadow: 0 0 5px 5px rgba(206, 52, 206, 0.361);
-    /* Optional: shadow for better visibility */
-    transition: background-color 0.3s, color 0.3s;
-    /* Smooth transition */
-    transition: all 300ms ease;
-  }
-
-  .whatsapp {
-    position: fixed;
-    bottom: 70px;
-    right: 1px;
-  }
-}
 
 
 .arrow-up:hover {
@@ -1029,20 +761,6 @@ body {
   /* Icon color on hover */
 }
 
-@media(max-height:558px) {
-  .landing__para--mobile {
-    padding: 10px;
-    padding: 10px;
-    padding-bottom: 30px;
-    object-fit: contain;
-  }
-
-  .landing__image2 {
-    width: 1px;
-  }
-}
-
-
 
 
 
@@ -1051,8 +769,12 @@ body {
   background-color: #242424;
 }
 
+.sukkah__container {
+  display: flex;
+}
+
 .back {
-  color: #ff00e7;
+  color: #ffffff;
   padding: 0.41ch;
   display: flex;
   justify-content: center;
@@ -1061,7 +783,7 @@ body {
 }
 
 .back__btn {
-  color: #ff00e7;
+  color: #ffffff;
   margin-bottom: 1ch;
   padding: 1ch;
   align-items: center;
@@ -1073,7 +795,7 @@ body {
 .sukkah-title {
   font-size: 4ch;
   margin-bottom: 20px;
-  color: #ff00e7;
+  color: #2634ed;
   text-align: center;
 
 }
@@ -1082,7 +804,7 @@ body {
   font-size: 2.2ch;
   margin-bottom: 20px;
   text-align: center;
-  color: #ff00e7;
+  color: #2634ed;
 }
 
 .sukkah-features {
@@ -1114,7 +836,7 @@ body {
 .sukkah-phone {
   font-size: 1.5em;
   font-weight: bold;
-  color: #ff00e7;
+  color: #2634ed;
   text-align: center;
 }
 
@@ -1138,7 +860,6 @@ body {
   border-radius: 4px;
   box-shadow: 0 0 34px #00ccff;
   box-sizing: unset;
-
 }
 
 .info__para {
@@ -1158,7 +879,7 @@ body {
   margin: 14px;
   border-top: 4px solid #ff00e7;
   box-shadow: 0 0 34px #6257d8;
-  background-color: #00ccff;
+  background-color: #0e5abd;
 
 }
 
@@ -1166,4 +887,303 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+
+
+
+
+
+
+
+
+/* responsive */
+
+
+
+
+
+
+
+@media(max-width:350px) {
+
+
+
+  .ServiceDetail li {
+    width: 80%;
+  }
+}
+
+
+
+
+
+
+
+
+@media (max-height: 665px) {
+
+  .landing {
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+
+  }
+
+
+}
+
+
+@media(max-width: 768px) {
+  .image-container2 {
+    display: none;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .landing__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .landing__img {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+
+
+  .landing {
+    position: relative;
+    z-index: 9;
+  }
+
+  .landing__header {
+    font-size: 26px;
+    width: 80vw;
+  }
+
+  .landing__para {
+    max-width: 80vw;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .landing__image2 {
+    display: none;
+  }
+
+
+  .scroll__header {
+    padding-top: 30px;
+    margin-top: 40px;
+  }
+
+  .ServiceDetail ul {
+    max-width: 60vw;
+
+    list-style-type: none;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .service__para {
+    font-weight: bold;
+    padding-top: 50px;
+    padding: 5px 10px;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+
+  }
+
+  .scroll__header {
+    font-size: 20px;
+  }
+
+  .scroll__header {
+
+    display: none;
+  }
+
+  .booking__container {
+    position: fixed;
+    right: 2px;
+    top: 30%;
+    display: block;
+    z-index: 20000;
+  }
+
+  .booking {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* WhatsApp green */
+    /* Icon color */
+    width: 120px;
+    /* Adjust size as needed */
+    height: 100px;
+    /* Adjust size as needed */
+    /* Optional shadow for better visibility */
+    /* Adjust icon size as needed */
+    border-radius: 10px;
+    text-decoration: none;
+    /* Remove underline from link */
+    transition: all 300ms ease;
+  }
+
+
+
+}
+
+
+
+
+
+@media (max-width: 550px) {
+
+  .landing__para {
+    font-size: 16px;
+    padding: 10px;
+    padding-bottom: 20px;
+  }
+
+
+  .landing__img2 {
+    display: none;
+  }
+
+
+  .App-header {
+    background-color: #282c34;
+    padding: 2rem;
+    color: white;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header__titlee {
+    padding-top: 20px;
+  }
+
+  .arrow-up {
+    position: fixed;
+    bottom: 160px;
+    right: 1px;
+    background-color: #fff;
+    border: 2px solid black;
+    /* Background color for visibility */
+    color: #50e605;
+    /* Icon color */
+    border-radius: 5px;
+    /* Round shape */
+    padding: 10px;
+    /* Space around the icon */
+    font-size: 24px;
+    /* Icon size */
+    text-decoration: none;
+    /* Remove underline */
+    box-shadow: 0 0 5px 5px rgba(206, 52, 206, 0.361);
+    /* Optional: shadow for better visibility */
+    transition: background-color 0.3s, color 0.3s;
+    /* Smooth transition */
+    transition: all 300ms ease;
+    z-index: 1000;
+  }
+
+
+
+  .landing__para--mobile {
+    display: flex;
+    font-size: 16px;
+    width: 90%;
+    max-width: 100%;
+  }
+
+  .arrow-up {
+    position: fixed;
+    bottom: 160px;
+    right: 1px;
+    background-color: #fff;
+    border: 2px solid black;
+    /* Background color for visibility */
+    color: #50e605;
+    /* Icon color */
+    border-radius: 5px;
+    /* Round shape */
+    padding: 10px;
+    /* Space around the icon */
+    font-size: 24px;
+    /* Icon size */
+    text-decoration: none;
+    /* Remove underline */
+    box-shadow: 0 0 5px 5px rgba(206, 52, 206, 0.361);
+    /* Optional: shadow for better visibility */
+    transition: background-color 0.3s, color 0.3s;
+    /* Smooth transition */
+    transition: all 300ms ease;
+  }
+
+  .whatsapp {
+    position: fixed;
+    bottom: 70px;
+    right: 1px;
+  }
+
+  .landing__para--mobile {
+    padding: 10px;
+    padding: 10px;
+    padding-bottom: 30px;
+    object-fit: contain;
+  }
+
+  .landing__image2 {
+    width: 1px;
+  }
+}
+
+@media(max-width: 400px) {
+  .landing {
+    height: 90vh;
+  }
+}
+
+@media(max-height: 200px) {
+  .landing {
+    height: 300vh;
+  }
+
+  .landing__img {
+    display: none;
+  }
+}
+
+@media(max-height: 850px) {
+  .landing__para--mobile {
+    display: none;
+  }
+
+  .landing__header {
+    /* font-size: 50px; */
+    font-size: 5ch;
+  }
+
+  .landing__img {}
+
+  .main__img--wrapper {
+    margin: 0 auto;
+    /* max-width: 200ch; */
+    flex: 1;
+    height: 0%;
+  }
 }

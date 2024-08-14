@@ -4,16 +4,16 @@ import "aos/dist/aos.css";
 
 const testimonials = [
   {
-    name: "Yossi t",
+    name: "Yossi T",
     feedback: "Excellent service! Highly recommend for any handyman needs.",
   },
   {
-    name: "Gavriel h",
+    name: "Yosef S",
     feedback:
       "Professional and reliable. Did a great job with my plumbing issues.",
   },
   {
-    name: "Chana l",
+    name: "Chana L",
     feedback:
       "Quick and efficient. Will definitely call again for future repairs.",
   },
